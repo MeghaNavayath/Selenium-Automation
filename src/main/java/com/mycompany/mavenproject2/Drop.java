@@ -17,7 +17,7 @@ public class Drop
        WebElement dd = driver.findElement(By.id("dropdown"));
        dd.click();
        Select select = new Select (dd);
-       select.selectByVisibleText("Option 2");
+       select.selectByVisibleText("Option 1");
        String newd = select.getFirstSelectedOption().getText();
        System.out.println("Selected option were : +newd");
        driver.quit();
