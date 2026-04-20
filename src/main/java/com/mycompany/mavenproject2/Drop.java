@@ -19,7 +19,7 @@ public class Drop
        Select select = new Select (dd);
        select.selectByVisibleText("Option 1");
        String newd = select.getFirstSelectedOption().getText();
-       System.out.println("Selected option is : +newd");
+       System.out.println("Selected option  : +newd");
        driver.quit();
        
         
